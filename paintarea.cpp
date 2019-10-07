@@ -69,7 +69,6 @@ void PaintArea::updateCursorSize(int value)
 void PaintArea::tabletMove(QTabletEvent *t,QPoint scenePos)
 {
     toolmanager->getActiveTool()->TabletMove(t,*image,scenePos);
-
 }
 
 void PaintArea::tabletPress(QTabletEvent *t,QPoint scenePos)
